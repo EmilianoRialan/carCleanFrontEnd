@@ -1,0 +1,97 @@
+video{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+}
+.h2PP{
+    font: x-large;
+    color:black;
+}
+.PantallaPrincipal{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center ;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,0);
+    object-fit: contain;
+}
+
+
+.PantallaPrincipal > h1{
+    color: #fff;
+    font-size: 100px;
+    margin-top: -70px;
+}
+
+.PantallaPrincipal > p {
+    margin-top: 8px;
+    color: #fff;
+    font-size: 32px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode',
+     'Lucida Grande', 'Lucida Sans', 
+     Arial, sans-serif;
+
+}
+
+.btnsPantallaPrincipal{
+    margin-top: 32px;
+    margin-right: 10px;
+}
+
+.btnsPantallaPrincipal .btn{
+    margin: 6px; 
+    padding: 20px;
+    margin-right: 5px;  
+}
+
+.fa-play-circle{
+    margin-left: 4px;
+}
+
+@media screen and (max-width: 960px){
+    .PantallaPrincipal > h1{        
+        font-size: 70px;
+        margin-top: -90px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .PantallaPrincipal > h1{        
+        font-size: 50px;
+        margin-top: -70px;
+    }
+
+    .PantallaPrincipal > p{
+        font-size: 30px;
+    }
+
+    .btn-mobile{
+        display: block;
+        text-decoration: none;
+    }
+
+    .btn{
+        width: 100%;
+    }
+}
+
+#imgAboutUs{
+    width:100%;
+    max-width: 1000px;
+    height:auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius:500px;  
+}
+.imgPrincipal{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1
+}

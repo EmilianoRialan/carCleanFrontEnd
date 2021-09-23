@@ -1,0 +1,87 @@
+:root{
+    --primary: #fff;
+}
+
+.btn{
+    padding: 8px 20px;
+    border-radius: 2px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+
+.btn--primary{
+    background-color: var(--primary);
+    color:#242424;
+    border: 1px solid var(--primary);
+    border-radius: 50px;
+}
+
+.btn--outline{
+    background-color: transparent;
+    color: #fff;
+    padding: 8px 20px;
+    border: 1px solid var(--primary);
+    transition: all 0.3s ease-out;
+    border-radius: 50px;
+}
+
+.btn--medium{
+    padding: 8px 20px;
+    font-size: 20px;
+}
+
+.btn--large{
+    padding: 12px 26px;
+    font-size: 20px;
+}
+
+.btn--medium:hover, .btn--large:hover{
+    background: #fff;
+    color: #242424;
+    transition: all 0.3s ease-out;
+}
+.btn--primary:hover{
+    background: #fff;
+    color: #242424;
+    transition: all 0.3s ease-out;
+    border-radius: 50px;
+    border-color: black;
+}
+
+.btn--outline:hover{
+    border-radius: 50px;
+    border-color: black;
+    background: #fff;
+    color: #242424;
+    transition: all 0.3s ease-out;
+}
+
+
+.card:hover {
+    box-shadow: 5px 10px 20px 1px rgba(255, 255, 255, 0.273) !important;
+    transition: all 0.7s linear;
+  }
+  
+  .card-body {
+    padding: 2rem 0 !important;
+  }
+  
+  .card-text {
+    padding: 0.3rem 1rem;
+    font-size: 1rem;
+  }
+  
+  .overflow {
+    overflow: hidden;
+  }
+  
+  .card-img-top {
+    transform: scale(1);
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .card-img-top:hover {
+    transform: scale(1.8);
+  }
